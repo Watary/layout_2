@@ -1,0 +1,20 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+	font-family: "OpenSans";
+	src: url("../font/OpenSans/opensans.eot?") format("eot"),
+	url("../font/OpenSans/opensans.woff") format("woff"),
+	url("../font/OpenSans/opensans.ttf") format("truetype"),
+	url("../font/OpenSans/opensans.svg#opensans") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "OpenSansBold";
+	src: url("../font/OpenSans/opensansbold.eot?") format("eot"),
+	url("../font/OpenSans/opensansbold.woff") format("woff"),
+	url("../font/OpenSans/opensansbold.ttf") format("truetype"),
+	url("../font/OpenSans/opensansbold.svg#opensansbold") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
