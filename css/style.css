@@ -1,7 +1,36 @@
 header{
 	background: #f6f2f2;
 	padding-top: 28px;
+	padding-bottom: 110px;
 }
+.header{
+	margin-top: 100px;
+}
+	.header h1{
+		font-family: "OpenSansExtraBold";
+		font-size: 60px;
+		text-transform: uppercase;
+	}
+	.header .description{
+		font-size: 16px;
+		font-family: "OpenSans";
+		margin-top: 20px;
+		margin-bottom: 60px;
+	}
+	.header a{
+		font-size: 18px;
+		font-family: "OpenSans";
+		color: #fff;
+		background: #ff2d2d;
+		padding: 15px 60px;
+		border-radius: 5px;
+	}
+		.header a:hover{
+			text-transform: none;
+			text-decoration: none;
+			color: #ff2d2d;
+			background: #fff;
+		}
 
 .navbar{
 	background: #313030;
