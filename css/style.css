@@ -2,22 +2,22 @@ header{
 	background: #f6f2f2;
 	padding-top: 28px;
 	padding-bottom: 110px;
-}
+	}
 .header{
 	margin-top: 100px;
 	word-wrap: break-word;
-}
+	}
 	.header h1{
 		font-family: "OpenSansExtraBold";
 		font-size: 60px;
 		text-transform: uppercase;
-	}
+		}
 	.header .description{
 		font-size: 16px;
 		font-family: "OpenSans";
 		margin-top: 20px;
 		margin-bottom: 60px;
-	}
+		}
 	.header a{
 		font-size: 18px;
 		font-family: "OpenSans";
@@ -25,40 +25,34 @@ header{
 		background: #ff2d2d;
 		padding: 15px 60px;
 		border-radius: 5px;
-	}
+		}
 		.header a:hover{
 			text-transform: none;
 			text-decoration: none;
 			color: #ff2d2d;
 			background: #fff;
-		}
+			}
 	.header .header-video{
 		width: 90%;
-		height: 300px;
+		height: 275px;
 		float: right;
-	}
+		}
 	.header .header-video{
 		box-shadow: 0px 14px 73px 0px rgba(0, 0, 0, 0.8);
-	}
-
-
-
+		}
 
 .navbar{
 	background: #313030;
 	padding: 0;
-}
+	}
 	.navbar .navbar-toggler{
 		margin: 0 auto;
 		width: 100%;
 		border: none;
-	}
+		}
 	.navbar .navbar-nav{
 		margin: 0 auto;
-	}
-	.navbar-expand-md .navbar-nav .nav-link{
-
-	}
+		}
 	.navbar .navbar-nav .nav-item a{
 		color: #e0e0e0;
 		font-family: "OpenSansBold";
@@ -67,10 +61,45 @@ header{
 		margin: 0 10px;
 		padding: 30px 20px;
 		text-align: center;
-	}
+		}
 		.navbar .navbar-nav .nav-item a:hover{
 			background: #ff3f40;
-		}
+			}
 	.navbar .active{
 		background: #ff3f40;
+		}
+
+footer{
+	background: #313030;
+	padding: 40px 0;
 	}
+	footer .left{
+		color: #b8b8b8;
+		font-family: "OpenSans";
+		font-size: 16px;
+		}
+	footer .right{
+		text-align: center;
+		}
+		footer .right a{
+			color: #313030;
+			font-size: 16px;
+			border-radius: 50%;
+			display: block;
+			}
+		footer .right .item{
+			text-align: center;
+			width: 25px;
+			height: 25px;
+			background: #ebebeb;
+			border-radius: 50%;
+			float: right;
+			margin-left: 10px;
+			border: none;
+			}
+			footer .right .item:hover{
+				background: #313030;
+				}
+				footer .right .item:hover a{
+					color: #ebebeb;
+					}
