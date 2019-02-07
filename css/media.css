@@ -21,11 +21,18 @@
 }
 
 @media (max-width: 991.98px) {
-	
+
 }
 
 @media (max-width: 1199.98px) {
-	
+	.section_2 a{
+		margin: 0 auto;
+		display: inline-block;
+		}
+	.section_2 .card{
+		margin-top: 50px;
+		text-align: center;
+		}
 }
 
 
